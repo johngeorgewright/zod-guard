@@ -1,6 +1,6 @@
 {
   "name": "zod-guard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Guard functions for Zod types",
   "main": "dist/zod-guard.js",
   "scripts": {
