@@ -9280,6 +9280,8 @@ fsevents@^2.3.2:
     tslib: 2.4.0
     typescript: 4.8.2
     zod: 3.19.0
+  peerDependencies:
+    zod: ^3.19.0
   languageName: unknown
   linkType: soft
 
