@@ -41,6 +41,7 @@ jobs:
     name: NPM
     needs: [publish-test]
     runs-on: ubuntu-latest
+    environment: NPM
     steps:
       - name: Checkout project
         uses: actions/checkout@v3
