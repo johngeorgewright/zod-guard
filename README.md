@@ -1,19 +1,27 @@
 # zod-guard
 
-This is a template repository for creating a NPM package with TypeScript.
+Guarding functions for zod types.
 
-## Setting up
+```ts
+import { z } from 'zod'
+import { zodGuard, zodGuardAsync } from 'zod-guard'
 
-1. Change all references of `zod-guard` to your new package name
-1. Also search for references to `@johngeorgewright` & `zod-guard` individually
-1. Remove the `private` property from `package.json` (if you want to publically publish your module)
-1. Search for all references of `secrets.` in the `.github` diectory and make sure you have the appropriate secrets registered in GitHub (Your Repo > Settings > Secrets)
-1. Delete the .github/dependabot.yml file (unless you wish to use that instead of renovate)
-1. Ammend the LICENSE with your name
+const MyType = z.string()
+const isMyType = zodGuard(MyType)
 
-## Dependency management
+if (isMyType(x)) {
+  // `x` is definitely of MyType
+  return x.substr(...)
+}
 
-By default, this project's dependencies is kept up-to-date with [renovate](https://www.mend.io/free-developer-tools/renovate/). This project may also be set-up for dependabot too. To do so:
+const MyAsyncType = z.string().refine(async (val) => val.length < 20)
+type MyAsyncType = z.infer<typeof MyAsyncType>
+const isMyType = zodGuardAsync(MyAsyncType)
 
-1. Remove the `renovate.json` file
-1. `mv .github/.dependabot.yml .github/dependabot.yml`
+if (await isMyType(x)) {
+  // `x` is definitely of MyAsyncType
+  // ...however, Typescript doesn't yet allow for an asynchronous guards,
+  // so you'll still need to do a little casting.
+  return (x as MyAsyncType).substr(...)
+}
+```
