@@ -1,4 +1,4 @@
-import { ZodType } from 'zod'
+import type { ZodType } from 'zod'
 
 /**
  * Create a guard function for a zod type.

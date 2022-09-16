@@ -1,4 +1,4 @@
-import { z } from 'express-zod-api'
+import type { z } from 'express-zod-api'
 
 /**
  * Create a guard function for a zod type.
