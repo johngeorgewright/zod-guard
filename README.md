@@ -26,7 +26,7 @@ if (await isMyAsyncType(x)) {
 }
 ```
 
-For anyone using the [express-zod-](https://github.com/RobinTail/express-zod-api) you can use the `zod-guard/express-zod-api` module instead.
+For anyone using the [express-zod-api](https://github.com/RobinTail/express-zod-api) you can use the `zod-guard/express-zod-api` module instead.
 
 ```ts
 import { z } from 'express-zod-api'
