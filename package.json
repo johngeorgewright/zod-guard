@@ -59,6 +59,14 @@
     "express-zod-api": "*",
     "zod": "^3.19.0"
   },
+  "peerDependenciesMeta": {
+    "express-zod-api": {
+      "optional": true
+    },
+    "zod": {
+      "optional": true
+    }
+  },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
       "yarn prettier --ignore-path .gitignore --write"
