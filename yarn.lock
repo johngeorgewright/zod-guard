@@ -10109,6 +10109,11 @@ fsevents@^2.3.2:
   peerDependencies:
     express-zod-api: "*"
     zod: ^3.19.0
+  peerDependenciesMeta:
+    express-zod-api:
+      optional: true
+    zod:
+      optional: true
   languageName: unknown
   linkType: soft
 
