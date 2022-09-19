@@ -30,6 +30,6 @@ For anyone using the [express-zod-api](https://github.com/RobinTail/express-zod-
 
 ```ts
 import { z } from 'express-zod-api'
-import { zodGuard, zodGuardAsync } from 'zod-guard/express-zod-api'
+import { zodGuard, zodGuardAsync } from 'zod-guard/dist/express-zod-api'
 // ...
 ```
