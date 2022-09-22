@@ -1,5 +1,5 @@
 import { z } from 'express-zod-api'
-import { zodGuard, zodGuardAsync } from '../src/zod-guard'
+import { zodGuard, zodGuardAsync } from '../src/express-zod-api'
 
 describe('synchronous guarding', () => {
   const MyType = z.strictObject({ foo: z.literal('bar') })
@@ -38,17 +38,19 @@ describe('asynchronous guarding', () => {
   test('success', async () => {
     const success: unknown = { foo: 'bar' }
 
-    if (await isMyType(success)) {
-      const foo = (success as MyType).foo
+    if ((await isMyType(success))(success)) {
+      const foo = success.foo
       expect(foo).toBe('bar')
     } else {
+      // @ts-expect-error
+      success.foo
       throw new Error('Guard failed runtime validation')
     }
   })
 
   test('failure', async () => {
     const failure: unknown = { foo: 'baz' }
-    if (await isMyType(failure)) {
+    if ((await isMyType(failure))(failure)) {
       throw new Error('Guard succeeded')
     } else {
       return expect(() => MyType.parseAsync(failure)).rejects.toThrow()

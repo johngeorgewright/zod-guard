@@ -19,22 +19,23 @@ export function zodGuard<T>(zodType: ZodType<T>) {
 /**
  * Create an async guard function for an async zod type.
  *
- * Typescript doesn't yet allow for an asynchronous guards,
- * so you'll still need to do a little casting.
+ * Sadly there isn't the conecpt of asynchronous guards yet.
+ * The only way to successfully get around them is to asynchronously
+ * return a guard function.
  *
  * @example
  * const MyType = z.string().refine(async (val) => val.length < 20)
  * type MyType = z.infer<typeof MyType>
  * const isMyType = zodGuardAsync(MyType)
  *
- * if (await isMyType(x)) {
+ * if ((await isMyType(x))(x)) {
  *   // `x` is definitely of MyType
- *   return (x as MyType).substr(...)
+ *   return x.substr(...)
  * }
  */
 export function zodGuardAsync<T>(zodType: ZodType<T>) {
-  return async (x: unknown) => {
+  return async (x: unknown): Promise<(x: unknown) => x is T> => {
     const { success } = await zodType.safeParseAsync(x)
-    return success
+    return (x1: unknown): x1 is T => x1 === x && success
   }
 }

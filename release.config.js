@@ -1,3 +1,8 @@
+// @ts-check
+
+/**
+ * @type {import('semantic-release').Options}
+ */
 module.exports = {
   branches: ['master'],
   plugins: [
