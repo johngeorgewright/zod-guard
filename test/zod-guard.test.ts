@@ -7,7 +7,6 @@ describe('synchronous guarding', () => {
 
   test('success', () => {
     const success: unknown = { foo: 'bar' }
-
     if (isMyType(success)) {
       const foo = success.foo
       expect(foo).toBe('bar')
@@ -37,18 +36,19 @@ describe('asynchronous guarding', () => {
 
   test('success', async () => {
     const success: unknown = { foo: 'bar' }
-
-    if (await isMyType(success)) {
+    if ((await isMyType(success))(success)) {
       const foo = (success as MyType).foo
       expect(foo).toBe('bar')
     } else {
+      // @ts-expect-error
+      success.foo
       throw new Error('Guard failed runtime validation')
     }
   })
 
   test('failure', async () => {
     const failure: unknown = { foo: 'baz' }
-    if (await isMyType(failure)) {
+    if ((await isMyType(failure))(failure)) {
       throw new Error('Guard succeeded')
     } else {
       return expect(() => MyType.parseAsync(failure)).rejects.toThrow()

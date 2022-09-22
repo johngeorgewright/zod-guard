@@ -18,11 +18,11 @@ const MyAsyncType = z.string().refine(async (val) => val.length < 20)
 type MyAsyncType = z.infer<typeof MyAsyncType>
 const isMyAsyncType = zodGuardAsync(MyAsyncType)
 
-if (await isMyAsyncType(x)) {
-  // `x` is definitely of MyAsyncType
-  // ...however, Typescript doesn't yet allow for an asynchronous guards,
-  // so you'll still need to do a little casting.
-  return (x as MyAsyncType).substr(...)
+// Sadly there isn't the conecpt of asynchronous guards yet.
+// The only way to successfully get around them is to asynchronously
+// return a guard function.
+if ((await isMyAsyncType(x))(x)) {
+  return x.substr(...)
 }
 ```
 
