@@ -5383,11 +5383,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
             ["@types/compression", "npm:1.7.2"],\
+            ["@types/connect", "npm:3.4.35"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/express-fileupload", "npm:1.4.1"],\
+            ["@types/express-serve-static-core", "npm:4.17.31"],\
             ["@types/http-errors", "npm:2.0.1"],\
             ["@types/jest", "npm:29.2.3"],\
             ["@types/node", "npm:16.7.13"],\
+            ["@types/qs", "npm:6.9.7"],\
             ["@types/typescript", null],\
             ["compression", "npm:1.7.4"],\
             ["express", "npm:4.18.2"],\
