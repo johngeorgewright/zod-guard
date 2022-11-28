@@ -36,6 +36,6 @@ export function zodGuard<T>(zodType: z.ZodType<T>) {
 export function zodGuardAsync<T>(zodType: z.ZodType<T>) {
   return async (x: unknown): Promise<(x: unknown) => x is T> => {
     const { success } = await zodType.safeParseAsync(x)
-    return (x1: unknown): x1 is T => x === x1 && success
+    return (_x1: unknown): _x1 is T => success
   }
 }
