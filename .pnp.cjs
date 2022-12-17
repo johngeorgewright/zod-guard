@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.0.7"],\
             ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.0.3"],\
             ["@types/jest", "npm:29.2.4"],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.17"],\
             ["@types/source-map-support", "npm:0.5.6"],\
             ["commitizen", "npm:4.2.6"],\
             ["concurrently", "npm:7.6.0"],\
@@ -2881,10 +2881,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.11.15", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.15-556d6408a5-cae8692a5c.zip/node_modules/@types/node/",\
+        ["npm:18.11.17", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.17-897ad73ae4-1933afd068.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.15"]\
+            ["@types/node", "npm:18.11.17"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11369,7 +11369,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.17"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -12041,7 +12041,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.0.7"],\
             ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.0.3"],\
             ["@types/jest", "npm:29.2.4"],\
-            ["@types/node", "npm:18.11.15"],\
+            ["@types/node", "npm:18.11.17"],\
             ["@types/source-map-support", "npm:0.5.6"],\
             ["commitizen", "npm:4.2.6"],\
             ["concurrently", "npm:7.6.0"],\
