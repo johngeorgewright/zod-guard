@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.2.6"],\
             ["concurrently", "npm:7.6.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.9.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.3.1"],\
             ["lint-staged", "npm:13.1.0"],\
@@ -5381,26 +5381,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["express-zod-api", [\
-        ["npm:8.4.0", {\
-          "packageLocation": "./.yarn/cache/express-zod-api-npm-8.4.0-f8f8378e6d-04a3c47da4.zip/node_modules/express-zod-api/",\
+        ["npm:8.9.0", {\
+          "packageLocation": "./.yarn/cache/express-zod-api-npm-8.9.0-cd900542a0-3cbfe948f3.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "npm:8.4.0"]\
+            ["express-zod-api", "npm:8.9.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-9e98f761b0/0/cache/express-zod-api-npm-8.4.0-f8f8378e6d-04a3c47da4.zip/node_modules/express-zod-api/",\
+        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.9.0", {\
+          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-a2c657ee6b/0/cache/express-zod-api-npm-8.9.0-cd900542a0-3cbfe948f3.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.9.0"],\
             ["@types/compression", "npm:1.7.2"],\
-            ["@types/connect", "npm:3.4.35"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/express-fileupload", "npm:1.4.1"],\
-            ["@types/express-serve-static-core", "npm:4.17.31"],\
             ["@types/http-errors", "npm:2.0.1"],\
             ["@types/jest", "npm:29.2.5"],\
             ["@types/node", "npm:16.7.13"],\
-            ["@types/qs", "npm:6.9.7"],\
             ["@types/typescript", null],\
             ["compression", "npm:1.7.4"],\
             ["express", "npm:4.18.2"],\
@@ -5408,13 +5405,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-errors", "npm:2.0.0"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.3.1"],\
             ["mime", "npm:3.0.0"],\
-            ["openapi3-ts", "npm:3.1.1"],\
+            ["openapi3-ts", "npm:3.1.2"],\
             ["ramda", "npm:0.28.0"],\
             ["triple-beam", "npm:1.3.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
             ["winston", "npm:3.8.2"],\
-            ["zod", "npm:3.19.1"],\
-            ["zod-to-ts", "virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1"]\
+            ["zod", "npm:3.20.2"]\
           ],\
           "packagePeers": [\
             "@types/jest",\
@@ -9201,10 +9197,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["openapi3-ts", [\
-        ["npm:3.1.1", {\
-          "packageLocation": "./.yarn/cache/openapi3-ts-npm-3.1.1-5ca6f7942e-33d102741c.zip/node_modules/openapi3-ts/",\
+        ["npm:3.1.2", {\
+          "packageLocation": "./.yarn/cache/openapi3-ts-npm-3.1.2-11c74a3020-77e5064ea9.zip/node_modules/openapi3-ts/",\
           "packageDependencies": [\
-            ["openapi3-ts", "npm:3.1.1"],\
+            ["openapi3-ts", "npm:3.1.2"],\
             ["yaml", "npm:2.1.3"]\
           ],\
           "linkType": "HARD"\
@@ -12030,13 +12026,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["zod", [\
-        ["npm:3.19.1", {\
-          "packageLocation": "./.yarn/cache/zod-npm-3.19.1-5084a5dfc9-56e420ea58.zip/node_modules/zod/",\
-          "packageDependencies": [\
-            ["zod", "npm:3.19.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.20.2", {\
           "packageLocation": "./.yarn/cache/zod-npm-3.20.2-faa0b46f24-04172f7e93.zip/node_modules/zod/",\
           "packageDependencies": [\
@@ -12065,7 +12054,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.2.6"],\
             ["concurrently", "npm:7.6.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.9.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.3.1"],\
             ["lint-staged", "npm:13.1.0"],\
@@ -12081,32 +12070,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }]\
-      ]],\
-      ["zod-to-ts", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/zod-to-ts-npm-1.1.1-b74dc90ac2-d30db49acd.zip/node_modules/zod-to-ts/",\
-          "packageDependencies": [\
-            ["zod-to-ts", "npm:1.1.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/zod-to-ts-virtual-89abec0832/0/cache/zod-to-ts-npm-1.1.1-b74dc90ac2-d30db49acd.zip/node_modules/zod-to-ts/",\
-          "packageDependencies": [\
-            ["zod-to-ts", "virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1"],\
-            ["@types/typescript", null],\
-            ["@types/zod", null],\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
-            ["zod", "npm:3.19.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/typescript",\
-            "@types/zod",\
-            "typescript",\
-            "zod"\
-          ],\
-          "linkType": "HARD"\
-        }]\
       ]]\
     ]\
   }'), {basePath: basePath || __dirname});
@@ -12119,6 +12082,7 @@ const StringDecoder = require('string_decoder');
 const url = require('url');
 const os = require('os');
 const nodeUtils = require('util');
+const readline = require('readline');
 const assert = require('assert');
 const stream = require('stream');
 const zlib = require('zlib');
@@ -16031,6 +15995,12 @@ class FileHandle {
     } finally {
       this[kUnref]();
     }
+  }
+  readLines(options) {
+    return readline.createInterface({
+      input: this.createReadStream(options),
+      crlfDelay: Infinity
+    });
   }
   async stat(opts) {
     try {
@@ -20727,6 +20697,9 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
+const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
+
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
 function readPackageScope(checkPath) {
@@ -20761,13 +20734,19 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-
-const shouldReportRequiredModules = process.env.WATCH_REPORT_DEPENDENCIES;
-function reportModuleToWatchMode(filename) {
-  if (shouldReportRequiredModules && process.send) {
-    process.send({ "watch:require": npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))) });
+function reportRequiredFilesToWatchMode(files) {
+  if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
+    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
+      process.send({ "watch:require": files });
+    } else {
+      for (const filename of files) {
+        process.send({ "watch:require": filename });
+      }
+    }
   }
 }
+
 function applyPatch(pnpapi, opts) {
   const defaultCache = {};
   let enableNativeHooks = true;
@@ -20827,7 +20806,7 @@ function applyPatch(pnpapi, opts) {
     }
     const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
     module.pnpApiPath = moduleApiPath;
-    reportModuleToWatchMode(modulePath);
+    reportRequiredFilesToWatchMode([modulePath]);
     entry.cache[modulePath] = module;
     if (isMain) {
       process.mainModule = module;
@@ -22185,6 +22164,7 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     if (qualifiedPath) {
       return ppath.normalize(qualifiedPath);
     } else {
+      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
