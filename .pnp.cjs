@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:3.0.2"],\
             ["semantic-release", "npm:19.0.5"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.3"],\
+            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.5"],\
             ["ts-node", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.9.1"],\
             ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -7579,6 +7579,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json5", "npm:2.2.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.2.3", {\
+          "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-2a7436a933.zip/node_modules/json5/",\
+          "packageDependencies": [\
+            ["json5", "npm:2.2.3"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["jsonfile", [\
@@ -11284,17 +11291,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-jest", [\
-        ["npm:29.0.3", {\
-          "packageLocation": "./.yarn/cache/ts-jest-npm-29.0.3-c1e6bc8a8a-541e51776d.zip/node_modules/ts-jest/",\
+        ["npm:29.0.5", {\
+          "packageLocation": "./.yarn/cache/ts-jest-npm-29.0.5-30e5da5c24-f60f129c22.zip/node_modules/ts-jest/",\
           "packageDependencies": [\
-            ["ts-jest", "npm:29.0.3"]\
+            ["ts-jest", "npm:29.0.5"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.3", {\
-          "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-a7ef1a459a/0/cache/ts-jest-npm-29.0.3-c1e6bc8a8a-541e51776d.zip/node_modules/ts-jest/",\
+        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.5", {\
+          "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-febf4e73b0/0/cache/ts-jest-npm-29.0.5-30e5da5c24-f60f129c22.zip/node_modules/ts-jest/",\
           "packageDependencies": [\
-            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.3"],\
+            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.5"],\
             ["@babel/core", null],\
             ["@jest/types", "npm:29.3.1"],\
             ["@types/babel-jest", null],\
@@ -11309,7 +11316,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-json-stable-stringify", "npm:2.1.0"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.3.1"],\
             ["jest-util", "npm:29.0.3"],\
-            ["json5", "npm:2.2.1"],\
+            ["json5", "npm:2.2.3"],\
             ["lodash.memoize", "npm:4.1.2"],\
             ["make-error", "npm:1.3.6"],\
             ["semver", "npm:7.3.5"],\
@@ -12073,7 +12080,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:3.0.2"],\
             ["semantic-release", "npm:19.0.5"],\
             ["source-map-support", "npm:0.5.21"],\
-            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.3"],\
+            ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.0.5"],\
             ["ts-node", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.9.1"],\
             ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -12119,6 +12126,7 @@ const StringDecoder = require('string_decoder');
 const url = require('url');
 const os = require('os');
 const nodeUtils = require('util');
+const readline = require('readline');
 const assert = require('assert');
 const stream = require('stream');
 const zlib = require('zlib');
@@ -16031,6 +16039,12 @@ class FileHandle {
     } finally {
       this[kUnref]();
     }
+  }
+  readLines(options) {
+    return readline.createInterface({
+      input: this.createReadStream(options),
+      crlfDelay: Infinity
+    });
   }
   async stat(opts) {
     try {
@@ -20727,6 +20741,9 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
+const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
+
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
 function readPackageScope(checkPath) {
@@ -20761,13 +20778,19 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-
-const shouldReportRequiredModules = process.env.WATCH_REPORT_DEPENDENCIES;
-function reportModuleToWatchMode(filename) {
-  if (shouldReportRequiredModules && process.send) {
-    process.send({ "watch:require": npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))) });
+function reportRequiredFilesToWatchMode(files) {
+  if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
+    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
+      process.send({ "watch:require": files });
+    } else {
+      for (const filename of files) {
+        process.send({ "watch:require": filename });
+      }
+    }
   }
 }
+
 function applyPatch(pnpapi, opts) {
   const defaultCache = {};
   let enableNativeHooks = true;
@@ -20827,7 +20850,7 @@ function applyPatch(pnpapi, opts) {
     }
     const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
     module.pnpApiPath = moduleApiPath;
-    reportModuleToWatchMode(modulePath);
+    reportRequiredFilesToWatchMode([modulePath]);
     entry.cache[modulePath] = module;
     if (isMain) {
       process.mainModule = module;
@@ -22185,6 +22208,7 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     if (qualifiedPath) {
       return ppath.normalize(qualifiedPath);
     } else {
+      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
