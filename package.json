@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/johngeorgewright/zod-guard#readme",
   "devDependencies": {
-    "@commitlint/cli": "17.4.4",
+    "@commitlint/cli": "17.5.0",
     "@commitlint/config-conventional": "17.4.4",
     "@commitlint/types": "17.4.4",
     "@jest/types": "29.5.0",
