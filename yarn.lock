@@ -2167,10 +2167,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.18":
-  version: 18.16.18
-  resolution: "@types/node@npm:18.16.18"
-  checksum: d32d8a0a04cd3f5ecb361bcb42f3a07623881ac90d680e06bf626defb3c663a94860d11690babe607cfe67265eceeb8a59ba5fe40c0e49f5a1b01e0088640469
+"@types/node@npm:18.17.0":
+  version: 18.17.0
+  resolution: "@types/node@npm:18.17.0"
+  checksum: 3a43c5c5541342751b514485144818a515fac5427f663066068eaacbe8a108cbe1207aae75ec89d34c3b32414c334aad84e9083cf7fcf3ebfd970adc871314a4
   languageName: node
   linkType: hard
 
@@ -10378,7 +10378,7 @@ fsevents@^2.3.2:
     "@semantic-release/github": 8.1.0
     "@semantic-release/release-notes-generator": 10.0.3
     "@types/jest": 29.5.3
-    "@types/node": 18.16.18
+    "@types/node": 18.17.0
     "@types/source-map-support": 0.5.6
     commitizen: 4.3.0
     concurrently: 7.6.0
