@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:7.6.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.11.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.6.4"],\
             ["lint-staged", "npm:13.3.0"],\
@@ -5438,26 +5438,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["express-zod-api", [\
-        ["npm:8.4.0", {\
-          "packageLocation": "./.yarn/cache/express-zod-api-npm-8.4.0-f8f8378e6d-04a3c47da4.zip/node_modules/express-zod-api/",\
+        ["npm:8.11.0", {\
+          "packageLocation": "./.yarn/cache/express-zod-api-npm-8.11.0-12808a2ac1-733224d589.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "npm:8.4.0"]\
+            ["express-zod-api", "npm:8.11.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-9e98f761b0/0/cache/express-zod-api-npm-8.4.0-f8f8378e6d-04a3c47da4.zip/node_modules/express-zod-api/",\
+        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-25776c936e/0/cache/express-zod-api-npm-8.11.0-12808a2ac1-733224d589.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.11.0"],\
             ["@types/compression", "npm:1.7.2"],\
-            ["@types/connect", "npm:3.4.35"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/express-fileupload", "npm:1.4.1"],\
-            ["@types/express-serve-static-core", "npm:4.17.31"],\
             ["@types/http-errors", "npm:2.0.1"],\
             ["@types/jest", "npm:29.5.4"],\
             ["@types/node", "npm:16.7.13"],\
-            ["@types/qs", "npm:6.9.7"],\
             ["@types/typescript", null],\
             ["compression", "npm:1.7.4"],\
             ["express", "npm:4.18.2"],\
@@ -5465,13 +5462,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-errors", "npm:2.0.0"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.6.4"],\
             ["mime", "npm:3.0.0"],\
-            ["openapi3-ts", "npm:3.1.1"],\
+            ["openapi3-ts", "npm:3.2.0"],\
             ["ramda", "npm:0.28.0"],\
             ["triple-beam", "npm:1.3.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=1a91c8"],\
             ["winston", "npm:3.8.2"],\
-            ["zod", "npm:3.19.1"],\
-            ["zod-to-ts", "virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1"]\
+            ["zod", "npm:3.20.6"]\
           ],\
           "packagePeers": [\
             "@types/jest",\
@@ -9286,11 +9282,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["openapi3-ts", [\
-        ["npm:3.1.1", {\
-          "packageLocation": "./.yarn/cache/openapi3-ts-npm-3.1.1-5ca6f7942e-33d102741c.zip/node_modules/openapi3-ts/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/openapi3-ts-npm-3.2.0-bc7f1aff0a-8796a29a13.zip/node_modules/openapi3-ts/",\
           "packageDependencies": [\
-            ["openapi3-ts", "npm:3.1.1"],\
-            ["yaml", "npm:2.1.3"]\
+            ["openapi3-ts", "npm:3.2.0"],\
+            ["yaml", "npm:2.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12028,17 +12024,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.1.3", {\
-          "packageLocation": "./.yarn/cache/yaml-npm-2.1.3-654a90032d-9131606232.zip/node_modules/yaml/",\
-          "packageDependencies": [\
-            ["yaml", "npm:2.1.3"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.3.1", {\
           "packageLocation": "./.yarn/cache/yaml-npm-2.3.1-743f5688d1-2c7bc9a7cd.zip/node_modules/yaml/",\
           "packageDependencies": [\
             ["yaml", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.3.3", {\
+          "packageLocation": "./.yarn/cache/yaml-npm-2.3.3-c5a47b9f8f-cdfd132e7e.zip/node_modules/yaml/",\
+          "packageDependencies": [\
+            ["yaml", "npm:2.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12122,10 +12118,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["zod", [\
-        ["npm:3.19.1", {\
-          "packageLocation": "./.yarn/cache/zod-npm-3.19.1-5084a5dfc9-56e420ea58.zip/node_modules/zod/",\
+        ["npm:3.20.6", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.20.6-d9ed055758-804b1934b8.zip/node_modules/zod/",\
           "packageDependencies": [\
-            ["zod", "npm:3.19.1"]\
+            ["zod", "npm:3.20.6"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -12157,7 +12153,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:7.6.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.4.0"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:8.11.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.6.4"],\
             ["lint-staged", "npm:13.3.0"],\
@@ -12172,32 +12168,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zod", "npm:3.22.2"]\
           ],\
           "linkType": "SOFT"\
-        }]\
-      ]],\
-      ["zod-to-ts", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/zod-to-ts-npm-1.1.1-b74dc90ac2-d30db49acd.zip/node_modules/zod-to-ts/",\
-          "packageDependencies": [\
-            ["zod-to-ts", "npm:1.1.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/zod-to-ts-virtual-89abec0832/0/cache/zod-to-ts-npm-1.1.1-b74dc90ac2-d30db49acd.zip/node_modules/zod-to-ts/",\
-          "packageDependencies": [\
-            ["zod-to-ts", "virtual:9e98f761b0c6146a510b7d78154514dfca56c040c3c54a89f18c1b829abc00881c3745be5ced2abb9810c483e707686ab1575d819a1a3085015c5b6a60a059ef#npm:1.1.1"],\
-            ["@types/typescript", null],\
-            ["@types/zod", null],\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=1a91c8"],\
-            ["zod", "npm:3.19.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/typescript",\
-            "@types/zod",\
-            "typescript",\
-            "zod"\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]]\
     ]\
