@@ -1,4 +1,4 @@
-import type { ZodType } from 'zod'
+import type { ZodType, ZodTypeDef } from 'zod'
 
 /**
  * Create a guard function for a zod type.
@@ -12,8 +12,10 @@ import type { ZodType } from 'zod'
  *   return x.substr(...)
  * }
  */
-export function zodGuard<T>(zodType: ZodType<T>) {
-  return (x: unknown): x is T => zodType.safeParse(x).success
+export function zodGuard<Output, Def extends ZodTypeDef, Input>(
+  zodType: ZodType<Output, Def, Input>
+) {
+  return (x: unknown): x is Input => zodType.safeParse(x).success
 }
 
 /**
@@ -33,9 +35,11 @@ export function zodGuard<T>(zodType: ZodType<T>) {
  *   return x.substr(...)
  * }
  */
-export function zodGuardAsync<T>(zodType: ZodType<T>) {
-  return async (x: unknown): Promise<(x: unknown) => x is T> => {
+export function zodGuardAsync<Output, Def extends ZodTypeDef, Input>(
+  zodType: ZodType<Output, Def, Input>
+) {
+  return async (x: unknown): Promise<(x: unknown) => x is Input> => {
     const { success } = await zodType.safeParseAsync(x)
-    return (_x1: unknown): _x1 is T => success
+    return (_x1: unknown): _x1 is Input => success
   }
 }
