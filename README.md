@@ -25,11 +25,3 @@ if ((await isMyAsyncType(x))(x)) {
   return x.substr(...)
 }
 ```
-
-For anyone using the [express-zod-api](https://github.com/RobinTail/express-zod-api) you can use the `zod-guard/express-zod-api` module instead.
-
-```ts
-import { z } from 'express-zod-api'
-import { zodGuard, zodGuardAsync } from 'zod-guard/dist/express-zod-api'
-// ...
-```
