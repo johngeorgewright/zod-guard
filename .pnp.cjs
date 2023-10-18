@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:12.0.0"],\
             ["@types/jest", "npm:29.5.6"],\
             ["@types/node", "npm:18.18.5"],\
-            ["@types/source-map-support", "npm:0.5.8"],\
+            ["@types/source-map-support", "npm:0.5.9"],\
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
@@ -2903,10 +2903,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/source-map-support", [\
-        ["npm:0.5.8", {\
-          "packageLocation": "./.yarn/cache/@types-source-map-support-npm-0.5.8-fda76625f5-333d77b70f.zip/node_modules/@types/source-map-support/",\
+        ["npm:0.5.9", {\
+          "packageLocation": "./.yarn/cache/@types-source-map-support-npm-0.5.9-6cd6762b1d-3a2c7b48aa.zip/node_modules/@types/source-map-support/",\
           "packageDependencies": [\
-            ["@types/source-map-support", "npm:0.5.8"],\
+            ["@types/source-map-support", "npm:0.5.9"],\
             ["source-map", "npm:0.6.1"]\
           ],\
           "linkType": "HARD"\
@@ -11481,7 +11481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:12.0.0"],\
             ["@types/jest", "npm:29.5.6"],\
             ["@types/node", "npm:18.18.5"],\
-            ["@types/source-map-support", "npm:0.5.8"],\
+            ["@types/source-map-support", "npm:0.5.9"],\
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
