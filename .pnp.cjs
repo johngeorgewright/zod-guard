@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:9.2.1"],\
             ["@semantic-release/release-notes-generator", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:12.0.0"],\
             ["@types/jest", "npm:29.5.6"],\
-            ["@types/node", "npm:18.18.5"],\
+            ["@types/node", "npm:18.18.6"],\
             ["@types/source-map-support", "npm:0.5.9"],\
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.1"],\
@@ -2833,10 +2833,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.18.5", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.5-40df2aaaa2-fc8c9b2bf2.zip/node_modules/@types/node/",\
+        ["npm:18.18.6", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.6-67880ca2e3-a847639b84.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.18.5"]\
+            ["@types/node", "npm:18.18.6"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -5127,7 +5127,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express-fileupload", "npm:1.4.2"],\
             ["@types/http-errors", null],\
             ["@types/jest", "npm:29.5.6"],\
-            ["@types/node", "npm:18.18.5"],\
+            ["@types/node", "npm:18.18.6"],\
             ["@types/typescript", null],\
             ["@types/winston", null],\
             ["@types/zod", null],\
@@ -10860,7 +10860,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:18.18.5"],\
+            ["@types/node", "npm:18.18.6"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -11480,7 +11480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:9.2.1"],\
             ["@semantic-release/release-notes-generator", "virtual:ef3ebea60966f008525206b1498e315460a4401b5d38d794be05ccd506cbb39e38f600de84a2c579b63d9c47f6a1940879c71a078582a109790292f3ca0b61cb#npm:12.0.0"],\
             ["@types/jest", "npm:29.5.6"],\
-            ["@types/node", "npm:18.18.5"],\
+            ["@types/node", "npm:18.18.6"],\
             ["@types/source-map-support", "npm:0.5.9"],\
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.1"],\
