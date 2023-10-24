@@ -4149,9 +4149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-zod-api@npm:14.0.0":
-  version: 14.0.0
-  resolution: "express-zod-api@npm:14.0.0"
+"express-zod-api@npm:14.0.1":
+  version: 14.0.1
+  resolution: "express-zod-api@npm:14.0.1"
   dependencies:
     "@types/compression": ^1.7.3
     "@types/express-fileupload": ^1.4.2
@@ -4181,7 +4181,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 60c55371b2ec15a642dad9aaf21f327d0f1106c3e812353a0c86e1b0345f5e61e010ab9215e4dfb0964316bb7439b1fa2c57c0ff0dbd70692da32a83d4079e20
+  checksum: 0e957084be8327d0cd281f2889c419d67c2d8a37efbb4b2ae3521dbd4844dc412829e316dbca437b30925ebc548ebe9823e70126ebabfa0ed4cd02597f17d6f4
   languageName: node
   linkType: hard
 
@@ -9950,7 +9950,7 @@ fsevents@^2.3.2:
     commitizen: 4.3.0
     concurrently: 8.2.2
     cz-conventional-changelog: 3.3.0
-    express-zod-api: 14.0.0
+    express-zod-api: 14.0.1
     husky: 8.0.3
     jest: 29.7.0
     lint-staged: 15.0.1
