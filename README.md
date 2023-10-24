@@ -11,7 +11,7 @@ const isMyType = zodGuard(MyType)
 
 if (isMyType(x)) {
   // `x` is definitely of MyType
-  return x.substr(...)
+  console.info(x.substr(...))
 }
 
 const MyAsyncType = z.string().refine(async (val) => val.length < 20)
@@ -22,6 +22,63 @@ const isMyAsyncType = zodGuardAsync(MyAsyncType)
 // The only way to successfully get around them is to asynchronously
 // return a guard function.
 if ((await isMyAsyncType(x))(x)) {
-  return x.substr(...)
+  console.info(x.substr(...))
 }
+```
+
+**Note: This will guard validators' inputs. Not the outputs.**
+
+IE, if you're using a transformer, this will guard the input type.
+
+```typescript
+import { z } from 'zod'
+import { zodGuard } from 'zod-guard'
+
+interface User {
+  id: number
+  name: string
+}
+
+const User = z.strictObject({
+  name: z.string()
+}).transform<User>((input) => ({
+  ...input
+  id: generateId(),
+}))
+
+const isUser = zodGuard(User)
+
+console.info(isUser({ id: 1, name: 'one' }))
+// false
+
+console.info(isUser({ name: 'one' }))
+// true
+```
+
+If you want to guard the output of your transformer, you'll need to create a validator for the output specifically.
+
+```typescript
+import { z } from 'zod'
+import { zodGuard } from 'zod-guard'
+
+const User = z.strictObject({
+  id: z.number(),
+  name: z.string()
+})
+
+const UserInput = User.omit({
+  id: true
+}).transform<z.output<User>>((input) => ({
+  ...input
+  id: generateId(),
+}))
+
+const isUser = zodGuard(User)
+const isUserInput = zodGuard(UserInput)
+
+console.info(isUser({ id: 1, name: 'one' }))
+// true
+
+console.info(isUserInput({ name: 'one' }))
+// true
 ```
