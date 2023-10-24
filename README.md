@@ -63,13 +63,13 @@ import { zodGuard } from 'zod-guard'
 
 const User = z.strictObject({
   id: z.number(),
-  name: z.string()
+  name: z.string(),
 })
 
 const UserInput = User.omit({
-  id: true
-}).transform<z.output<User>>((input) => ({
-  ...input
+  id: true,
+}).transform<z.output<typeof User>>((input) => ({
+  ...input,
   id: generateId(),
 }))
 
