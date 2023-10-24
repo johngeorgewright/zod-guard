@@ -2120,13 +2120,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.5":
-  version: 29.5.5
-  resolution: "@types/jest@npm:29.5.5"
+"@types/jest@npm:29.5.6":
+  version: 29.5.6
+  resolution: "@types/jest@npm:29.5.6"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 56e55cde9949bcc0ee2fa34ce5b7c32c2bfb20e53424aa4ff3a210859eeaaa3fdf6f42f81a3f655238039cdaaaf108b054b7a8602f394e6c52b903659338d8c6
+  checksum: fa13a27bd1c8efd0381a419478769d0d6d3a8e93e1952d7ac3a16274e8440af6f73ed6f96ac1ff00761198badf2ee226b5ab5583a5d87a78d609ea78da5c5a24
   languageName: node
   linkType: hard
 
@@ -2151,10 +2151,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.18.5":
-  version: 18.18.5
-  resolution: "@types/node@npm:18.18.5"
-  checksum: fc8c9b2bf226270cf9085a7dac76ce09dd7c3519ec9b687ee2b50385954ab3709c45ca82d002d1536e24286803cd194d7ab7008acebdcd6681b8b19d4277fa5c
+"@types/node@npm:18.18.6":
+  version: 18.18.6
+  resolution: "@types/node@npm:18.18.6"
+  checksum: a847639b8455fd3dfa6dbc2917274c82c9db789f1d41aaf69f94ac6c9e54c3c1dd29be6e1e1ccd7c17e54db3d78d7011bc4e70544c6447ceca253dccc0a187e1
   languageName: node
   linkType: hard
 
@@ -2210,12 +2210,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/source-map-support@npm:0.5.8":
-  version: 0.5.8
-  resolution: "@types/source-map-support@npm:0.5.8"
+"@types/source-map-support@npm:0.5.9":
+  version: 0.5.9
+  resolution: "@types/source-map-support@npm:0.5.9"
   dependencies:
     source-map: ^0.6.0
-  checksum: 333d77b70fd793de066572aa1c7d988ac351e6591b860db8df05bdb2ad40ee2aa1a31d66c3c0d019137d72fb7b806dfc55c2b47958d1599e775e1d37dc1f736d
+  checksum: 3a2c7b48aa9b1ee4b2f6efe056ce816e04c24d746ff7b2a864bdc8defd9d6bd96996403017504c144c8708daed21c0b8bff90be6e5fae5d7047134628b69a60d
   languageName: node
   linkType: hard
 
@@ -3424,9 +3424,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:8.2.1":
-  version: 8.2.1
-  resolution: "concurrently@npm:8.2.1"
+"concurrently@npm:8.2.2":
+  version: 8.2.2
+  resolution: "concurrently@npm:8.2.2"
   dependencies:
     chalk: ^4.1.2
     date-fns: ^2.30.0
@@ -3440,7 +3440,7 @@ __metadata:
   bin:
     conc: dist/bin/concurrently.js
     concurrently: dist/bin/concurrently.js
-  checksum: 216cb16d5b301cbd9c657b19430836d1686fe8fa9b9ef35ef7ac601e1a5cf6535166a3e57de446696dbd5e7e3f45d78fc70f33c5fd4bb565342cd5e752c5b069
+  checksum: 8ac774df06869773438f1bf91025180c52d5b53139bc86cf47659136c0d97461d0579c515d848d1e945d4e3e0cafe646b2ea18af8d74259b46abddcfe39b2c6c
   languageName: node
   linkType: hard
 
@@ -9964,11 +9964,11 @@ fsevents@^2.3.2:
     "@semantic-release/git": 10.0.1
     "@semantic-release/github": 9.2.1
     "@semantic-release/release-notes-generator": 12.0.0
-    "@types/jest": 29.5.5
-    "@types/node": 18.18.5
-    "@types/source-map-support": 0.5.8
+    "@types/jest": 29.5.6
+    "@types/node": 18.18.6
+    "@types/source-map-support": 0.5.9
     commitizen: 4.3.0
-    concurrently: 8.2.1
+    concurrently: 8.2.2
     cz-conventional-changelog: 3.3.0
     express-zod-api: 14.0.0
     husky: 8.0.3
