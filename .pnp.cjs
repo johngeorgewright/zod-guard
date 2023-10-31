@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.2"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.1"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.7.0"],\
             ["lint-staged", "npm:15.0.2"],\
@@ -5112,17 +5112,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["express-zod-api", [\
-        ["npm:14.0.1", {\
-          "packageLocation": "./.yarn/cache/express-zod-api-npm-14.0.1-339546e13a-0e957084be.zip/node_modules/express-zod-api/",\
+        ["npm:14.0.2", {\
+          "packageLocation": "./.yarn/cache/express-zod-api-npm-14.0.2-3d15cd1d68-7a32592e3c.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "npm:14.0.1"]\
+            ["express-zod-api", "npm:14.0.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-68a011e506/0/cache/express-zod-api-npm-14.0.1-339546e13a-0e957084be.zip/node_modules/express-zod-api/",\
+        ["virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/express-zod-api-virtual-ab6c6c2e33/0/cache/express-zod-api-npm-14.0.2-3d15cd1d68-7a32592e3c.zip/node_modules/express-zod-api/",\
           "packageDependencies": [\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.1"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.2"],\
             ["@types/compression", "npm:1.7.3"],\
             ["@types/express", null],\
             ["@types/express-fileupload", "npm:1.4.2"],\
@@ -11481,7 +11481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.3.0"],\
             ["concurrently", "npm:8.2.2"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.1"],\
+            ["express-zod-api", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:14.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.7.0"],\
             ["lint-staged", "npm:15.0.2"],\
