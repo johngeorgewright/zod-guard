@@ -2282,12 +2282,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/source-map-support@npm:0.5.9":
-  version: 0.5.9
-  resolution: "@types/source-map-support@npm:0.5.9"
+"@types/source-map-support@npm:0.5.10":
+  version: 0.5.10
+  resolution: "@types/source-map-support@npm:0.5.10"
   dependencies:
     source-map: ^0.6.0
-  checksum: 3a2c7b48aa9b1ee4b2f6efe056ce816e04c24d746ff7b2a864bdc8defd9d6bd96996403017504c144c8708daed21c0b8bff90be6e5fae5d7047134628b69a60d
+  checksum: ef287caea52a41b600a128d36cf961f048913e30fe143f7d882d19014635d0ca89e27013a48b0e6353ca277689d633c2ef65a25b2f8cd6d82916a2f908f18c38
   languageName: node
   linkType: hard
 
@@ -10089,7 +10089,7 @@ fsevents@^2.3.2:
     "@semantic-release/release-notes-generator": 12.1.0
     "@types/jest": 29.5.8
     "@types/node": 18.18.8
-    "@types/source-map-support": 0.5.9
+    "@types/source-map-support": 0.5.10
     commitizen: 4.3.0
     concurrently: 8.2.2
     cz-conventional-changelog: 3.3.0
