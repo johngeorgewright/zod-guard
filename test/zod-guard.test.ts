@@ -37,7 +37,7 @@ describe('asynchronous guarding', () => {
   test('success', async () => {
     const success: unknown = { foo: 'bar' }
     if ((await isMyType(success))(success)) {
-      const foo = (success as MyType).foo
+      const foo = success.foo
       expect(foo).toBe('bar')
     } else {
       // @ts-expect-error
