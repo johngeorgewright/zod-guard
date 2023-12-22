@@ -1786,9 +1786,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:9.2.3":
-  version: 9.2.3
-  resolution: "@semantic-release/github@npm:9.2.3"
+"@semantic-release/github@npm:9.2.6":
+  version: 9.2.6
+  resolution: "@semantic-release/github@npm:9.2.6"
   dependencies:
     "@octokit/core": "npm:^5.0.0"
     "@octokit/plugin-paginate-rest": "npm:^9.0.0"
@@ -1803,12 +1803,12 @@ __metadata:
     https-proxy-agent: "npm:^7.0.0"
     issue-parser: "npm:^6.0.0"
     lodash-es: "npm:^4.17.21"
-    mime: "npm:^3.0.0"
-    p-filter: "npm:^3.0.0"
+    mime: "npm:^4.0.0"
+    p-filter: "npm:^4.0.0"
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 9bdbc65fd49d1d1596d6ef95407fb9630627ceb79295e11cf67785d45c9e381b754c5cb73a847ba9fb361163eee5606186019886f1d7ca40f881d78d92800dec
+  checksum: 699131327d5280581ef1f300c905d6565b3d730a08eb43473a58b3802aa53cd2d0be4561a121840f66d93c4eac630c9563877b430b191848412a39a7651f2244
   languageName: node
   linkType: hard
 
@@ -5120,6 +5120,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"import-from-esm@npm:^1.3.1":
+  version: 1.3.3
+  resolution: "import-from-esm@npm:1.3.3"
+  dependencies:
+    debug: "npm:^4.3.4"
+    import-meta-resolve: "npm:^4.0.0"
+  checksum: 3f30a7bcce9b7f96f90e33facd473cc4801abf2260894bdde47099c60b04e8c72a40a82702c05e150996aab4345e7fba0c512ecfed7562f009a1e8982ed2835a
+  languageName: node
+  linkType: hard
+
 "import-from@npm:^4.0.0":
   version: 4.0.0
   resolution: "import-from@npm:4.0.0"
@@ -6934,6 +6944,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "mime@npm:4.0.1"
+  bin:
+    mime: bin/cli.js
+  checksum: 4598030457488c240a4ba30561a619cfb627f96271ecced5d715eb5c44d33105e3f28d28fe46d72eeadb78d7de5aeb1f8e62d448c14b0e518a7ace76d2af5f2d
+  languageName: node
+  linkType: hard
+
 "mimic-fn@npm:^1.0.0":
   version: 1.2.0
   resolution: "mimic-fn@npm:1.2.0"
@@ -7705,6 +7724,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-filter@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "p-filter@npm:4.0.0"
+  dependencies:
+    p-map: "npm:^7.0.0"
+  checksum: f86953c2c03e014e4284133d060c7788f60b1841c605ff4c29e52789e877eadbb718831b16e4ae7ee9170ae894633f3d557a2a4f151ce5f96045046ada04811e
+  languageName: node
+  linkType: hard
+
 "p-is-promise@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-is-promise@npm:3.0.0"
@@ -7799,6 +7827,13 @@ __metadata:
   dependencies:
     aggregate-error: "npm:^4.0.0"
   checksum: 089a709d2525208a965b7907cc8e58af950542629b538198fc142c40e7f36b3b492dd6a46a1279515ccab58bb6f047e04593c0ab5ef4539d312adf7f761edf55
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "p-map@npm:7.0.0"
+  checksum: 2ff3cdf6de518e5c714172ed704bb567b097f94d3ee865e92fbe110e038322826d48205c779b5e35062568815b2a1e7d75928d7c74ce8d3840aa820c10ce32ca
   languageName: node
   linkType: hard
 
@@ -8653,9 +8688,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.7":
-  version: 22.0.7
-  resolution: "semantic-release@npm:22.0.7"
+"semantic-release@npm:22.0.12":
+  version: 22.0.12
+  resolution: "semantic-release@npm:22.0.12"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^11.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -8673,6 +8708,7 @@ __metadata:
     git-log-parser: "npm:^1.2.0"
     hook-std: "npm:^3.0.0"
     hosted-git-info: "npm:^7.0.0"
+    import-from-esm: "npm:^1.3.1"
     lodash-es: "npm:^4.17.21"
     marked: "npm:^9.0.0"
     marked-terminal: "npm:^6.0.0"
@@ -8687,7 +8723,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: df1d1c0b5108703374ca824b48b4b59cc5cca885d2c36d9d6c96f77a6350111e58b4f813a666cb94730bf38bcdddcd8a4920d2cbd8841efe3398db4db3ef83d4
+  checksum: cecc72eace26a28bec37a1c1958281b4f7ccee57620c476d852468499b08111d6d71d580943b23dd8b9ae4433f06ccfc450486dc2915c67a6654aa157fbd7130
   languageName: node
   linkType: hard
 
@@ -10144,7 +10180,7 @@ __metadata:
     "@semantic-release/commit-analyzer": "npm:11.1.0"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
-    "@semantic-release/github": "npm:9.2.3"
+    "@semantic-release/github": "npm:9.2.6"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     "@types/jest": "npm:29.5.8"
     "@types/node": "npm:20.9.0"
@@ -10158,7 +10194,7 @@ __metadata:
     lint-staged: "npm:15.1.0"
     prettier: "npm:2.8.8"
     rimraf: "npm:5.0.5"
-    semantic-release: "npm:22.0.7"
+    semantic-release: "npm:22.0.12"
     source-map-support: "npm:0.5.21"
     ts-jest: "npm:29.1.1"
     ts-node: "npm:10.9.1"
