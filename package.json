@@ -42,7 +42,7 @@
     "commitizen": "4.3.0",
     "concurrently": "8.2.2",
     "cz-conventional-changelog": "3.3.0",
-    "express-zod-api": "14.2.0",
+    "express-zod-api": "15.3.0",
     "husky": "8.0.3",
     "jest": "29.7.0",
     "lint-staged": "15.1.0",
