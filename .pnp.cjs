@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:9.2.3"],\
           ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:12.1.0"],\
           ["@types/jest", "npm:29.5.8"],\
-          ["@types/node", "npm:20.9.0"],\
+          ["@types/node", "npm:20.11.30"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
           ["concurrently", "npm:8.2.2"],\
@@ -2939,10 +2939,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.9.0", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.9.0-d5b5fa6634-a934f7645e.zip/node_modules/@types/node/",\
+      ["npm:20.11.30", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.11.30-b20dd3f11f-78515bc768.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.9.0"],\
+          ["@types/node", "npm:20.11.30"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -5244,7 +5244,7 @@ const RAW_RUNTIME_STATE =
           ["@types/express-fileupload", "npm:1.4.2"],\
           ["@types/http-errors", null],\
           ["@types/jest", "npm:29.5.8"],\
-          ["@types/node", "npm:20.9.0"],\
+          ["@types/node", "npm:20.11.30"],\
           ["@types/typescript", null],\
           ["@types/winston", null],\
           ["@types/zod", null],\
@@ -11042,7 +11042,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:20.9.0"],\
+          ["@types/node", "npm:20.11.30"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -11680,7 +11680,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:9.2.3"],\
           ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:12.1.0"],\
           ["@types/jest", "npm:29.5.8"],\
-          ["@types/node", "npm:20.9.0"],\
+          ["@types/node", "npm:20.11.30"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
           ["concurrently", "npm:8.2.2"],\
