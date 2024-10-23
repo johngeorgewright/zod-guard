@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:9.2.3"],\
           ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:12.1.0"],\
-          ["@types/jest", "npm:29.5.8"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.9.0"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
@@ -2895,10 +2895,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jest", [\
-      ["npm:29.5.8", {\
-        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.8-2a56a49621-a8194e26c6.zip/node_modules/@types/jest/",\
+      ["npm:29.5.14", {\
+        "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.14-506446c38e-59ec7a9c46.zip/node_modules/@types/jest/",\
         "packageDependencies": [\
-          ["@types/jest", "npm:29.5.8"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["expect", "npm:29.0.3"],\
           ["pretty-format", "npm:29.0.3"]\
         ],\
@@ -5243,7 +5243,7 @@ const RAW_RUNTIME_STATE =
           ["@types/express", null],\
           ["@types/express-fileupload", "npm:1.4.2"],\
           ["@types/http-errors", null],\
-          ["@types/jest", "npm:29.5.8"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.9.0"],\
           ["@types/typescript", null],\
           ["@types/winston", null],\
@@ -10990,7 +10990,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-jest", null],\
           ["@types/babel__core", null],\
           ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.8"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
           ["babel-jest", null],\
@@ -11679,7 +11679,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:9.2.3"],\
           ["@semantic-release/release-notes-generator", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:12.1.0"],\
-          ["@types/jest", "npm:29.5.8"],\
+          ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:20.9.0"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
