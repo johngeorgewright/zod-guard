@@ -2103,12 +2103,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/compression@npm:^1.7.3":
-  version: 1.7.3
-  resolution: "@types/compression@npm:1.7.3"
+"@types/compression@npm:^1.7.5":
+  version: 1.8.1
+  resolution: "@types/compression@npm:1.8.1"
   dependencies:
     "@types/express": "npm:*"
-  checksum: eaa67663f98d394b64e540c422333f380337d6deb3f76112762cc739075ce9f03cdd83713189fc7bdb9ade5e993d398b1f3a4a849da89982d622d83f18d15df9
+    "@types/node": "npm:*"
+  checksum: cd746c830a5c981568d36989c3c43a55caf1872b54e3f9891b82fba04501de11882091df3ece11fbede2de01179c99d08639a08831e06c3966873f928407c01a
   languageName: node
   linkType: hard
 
@@ -2121,13 +2122,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express-fileupload@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "@types/express-fileupload@npm:1.4.2"
+"@types/express-fileupload@npm:^1.4.4":
+  version: 1.5.1
+  resolution: "@types/express-fileupload@npm:1.5.1"
   dependencies:
     "@types/busboy": "npm:*"
     "@types/express": "npm:*"
-  checksum: a4b7d7ec26acecb91c88a46495140b59bd5701f0d1a91ece95d4a56841596201012d5727b36ce25e1c28be28a5cd67c5a517cae76ca4cb0b3820f32f089bb970
+  checksum: 15c6c7c5016515ee8e66e1ec765e48e600f048fc6c81aeca10f229897ab9fb14164fe4c1df36c31231c42a8995f753bcf948c653a6a7f2cf2de1e64e00d43a6f
   languageName: node
   linkType: hard
 
@@ -4223,23 +4224,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-fileupload@npm:~1.4.2":
-  version: 1.4.2
-  resolution: "express-fileupload@npm:1.4.2"
+"express-fileupload@npm:~1.4.3":
+  version: 1.4.3
+  resolution: "express-fileupload@npm:1.4.3"
   dependencies:
     busboy: "npm:^1.6.0"
-  checksum: 8cc7f414db2d7521e56f2c8152c8c13317271c07c75c0c209c66752f3a46e0f7ec21c57775789687b3dff67014ce3b735a43d440f1f0a545faf7d96ead2b6526
+  checksum: 25ff544e7a1c59e5299061c9a75d4eb50983d82cd1a6d299195a0fd1f1c9bb46a23fda8a8c2c924b578b9a7894da90fe000a9785add7b3c2fbf0166f8ee5b6aa
   languageName: node
   linkType: hard
 
-"express-zod-api@npm:14.2.0":
-  version: 14.2.0
-  resolution: "express-zod-api@npm:14.2.0"
+"express-zod-api@npm:14.2.5":
+  version: 14.2.5
+  resolution: "express-zod-api@npm:14.2.5"
   dependencies:
-    "@types/compression": "npm:^1.7.3"
-    "@types/express-fileupload": "npm:^1.4.2"
+    "@types/compression": "npm:^1.7.5"
+    "@types/express-fileupload": "npm:^1.4.4"
     compression: "npm:~1.7.4"
-    express-fileupload: "npm:~1.4.2"
+    express-fileupload: "npm:~1.4.3"
     openapi3-ts: "npm:^4.1.2"
     ramda: "npm:~0.29.1"
   peerDependencies:
@@ -4264,7 +4265,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 0d59d7da906adfc7052624ed31cdde1f91ec55e5ece6c9dde51deb70687e305f9467c1bca7c852a01cda7c755432fd645fdb25ef2c216a2698966334e38b0d31
+  checksum: 60968809f506b12e6fc5c8e8fc500e293c07cf83f37975364ee4994105604086cf5dfe4ebe0e88b965435c2d5c4d4daadf25e4db1c902c8cbfae2cc3de438597
   languageName: node
   linkType: hard
 
@@ -10152,7 +10153,7 @@ __metadata:
     commitizen: "npm:4.3.0"
     concurrently: "npm:8.2.2"
     cz-conventional-changelog: "npm:3.3.0"
-    express-zod-api: "npm:14.2.0"
+    express-zod-api: "npm:14.2.5"
     husky: "npm:8.0.3"
     jest: "npm:29.7.0"
     lint-staged: "npm:15.1.0"
