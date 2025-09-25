@@ -46,7 +46,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.7.0"],\
           ["lint-staged", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["rimraf", "npm:5.0.5"],\
+          ["rimraf", "npm:5.0.10"],\
           ["semantic-release", "npm:22.0.7"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.1.1"],\
@@ -9982,10 +9982,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.0.5", {\
-        "packageLocation": "./.yarn/cache/rimraf-npm-5.0.5-19228633fd-a612c7184f.zip/node_modules/rimraf/",\
+      ["npm:5.0.10", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-5.0.10-d0c6647697-f3b8ce81ee.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["rimraf", "npm:5.0.5"],\
+          ["rimraf", "npm:5.0.10"],\
           ["glob", "npm:10.3.10"]\
         ],\
         "linkType": "HARD"\
@@ -11690,7 +11690,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.7.0"],\
           ["lint-staged", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["rimraf", "npm:5.0.5"],\
+          ["rimraf", "npm:5.0.10"],\
           ["semantic-release", "npm:22.0.7"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-jest", "virtual:f6b57cc55c0508bc771a1fba5fa8586a8ed0e18f9bf1c8df3ac2401a6efd5694f9d95a6c7b7c584ad483ff80dca6e3f8234b3e6ca60f5a4ad7df41fb4980502b#npm:29.1.1"],\
